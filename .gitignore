@@ -1,0 +1,31 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude sensitive .tfvars files
+# *.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.terraform.lock.hcl
+*.pub
+*.log
+*.dot
+*.svg
+planfile
+*.pem
+# Include tfplan files (optional)
+# To ignore the plan output of the command: terraform plan -out=tfplan
+# Example: *tfplan*
+
